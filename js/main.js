@@ -52,7 +52,6 @@ gsap.registerPlugin(ScrollTrigger)
   gsap.to(".mb", {
     scrollTrigger: {
         trigger:".cartas",
-        markers:true,
         start:"top center",
         end:" top 100px",
         scrub:1
@@ -65,7 +64,6 @@ gsap.registerPlugin(ScrollTrigger)
   gsap.to(".cat", {
     scrollTrigger: {
         trigger:".cartas",
-
         start:"top center",
         end:" top 100px",
         scrub:1
