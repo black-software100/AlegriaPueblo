@@ -17,13 +17,12 @@ gsap.registerPlugin(ScrollTrigger)
     
   });
 
-  gsap.to(".carta", {
+  gsap.to(".cartas", {
     scrollTrigger: {
         trigger:".img",
-
         end:" top ",  
         start:"top 100px",
-        
+        toggleClass:"carta",
         scrub:1
     }, // start the animation when ".box" enters the viewport (once) ,
     ease:"none",
@@ -32,7 +31,8 @@ gsap.registerPlugin(ScrollTrigger)
     background: "#d1b891",
     color:"black",
     border:"black",
-    duration:1
+    duration:1,
+    
   });
 
   gsap.from(".pmv", {
@@ -51,8 +51,8 @@ gsap.registerPlugin(ScrollTrigger)
   
   gsap.to(".mb", {
     scrollTrigger: {
-        trigger:".carta",
-        // markers:true,
+        trigger:".cartas",
+        markers:true,
         start:"top center",
         end:" top 100px",
         scrub:1
@@ -64,8 +64,8 @@ gsap.registerPlugin(ScrollTrigger)
 
   gsap.to(".cat", {
     scrollTrigger: {
-        trigger:".carta",
-        markers:true,
+        trigger:".cartas",
+
         start:"top center",
         end:" top 100px",
         scrub:1
