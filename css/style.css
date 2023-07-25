@@ -1,0 +1,21 @@
+.navbar{
+    background: #442705  ;
+}
+.carta{
+    box-shadow:  5px 5px 20px rgba(0,0,0,0.4);
+}
+.proyectos{
+    background: #d1b891 
+}
+i{
+    font-size: 100px;
+}
+.footer{
+    background: #442705 ;
+}
+.card{
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+}
