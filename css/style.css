@@ -1,21 +1,38 @@
+img{
+    border-radius: 20px;
+}
+i{
+    font-size: 100px;
+}
 .navbar{
     background: #442705  ;
 }
 .carta{
     box-shadow:  5px 5px 20px rgba(0,0,0,0.4);
+    background: transparent;
 }
 .proyectos{
-    background: #d1b891 
+    
+    background: transparent;
 }
-i{
-    font-size: 100px;
-}
+
 .footer{
     background: #442705 ;
 }
+
+
 .card{
+    background: transparent;
+    border:transparent ;
     border-radius: 20px;
 }
-img{
-    border-radius: 20px;
+.titulomv{
+    color: transparent;
+}
+.img{
+    width: 100%; 
+    height: 100%;
+}
+.pmv{
+    color:black;
 }
