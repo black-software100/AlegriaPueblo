@@ -23,8 +23,8 @@ gsap.from(".p1", {
         end:" bottom center",  
         start:"top 100px",
         // toggleClass:"carta",
-        scrub:1,
-        markers:true
+        // scrub:1,
+        // markers:true
     }, // start the animation when ".box" enters the viewport (once) ,
     ease:"none",
     // boxshadow:  "5px 5px 20px rgba(0,0,0,0.4)",
