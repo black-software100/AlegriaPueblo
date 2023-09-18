@@ -1,83 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alegria de un pueblo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Alegria de un pueblo</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-        <div class="container-fluid">
-          <a class="navbar-brand ms-3" href="index.html">
-            <img src="assets/img/logo.png" alt="Bootstrap" width="90" height="90">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Quienes somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Visión</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Misión</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Contactános</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <nav class="navbar-nav">
+        <input type="checkbox" id="check"> 
+        <label for="check" class="checkbtn">
+             <i class="bi bi-list"></i>
+        </label>
+        <a class="navbar-nav__a" href="">
+            <img class="navbar-nav__a-img" src="./assets/img/logo.png" alt="">
+        </a>
+        <ul class="navbar-nav__ul">
+           <li>
+            <a href="">
+                Inicio
+            </a></li>
+           <li>
+                <a href="">
+                    Quienes somos
+                </a>
+           </li>
+           <li>
+                <a href="">
+                    Misión y Visión
+                </a>
+           </li>
+           <li>
+                <a href="">
+                    Contácto
+                </a>
+           </li> 
+        </ul>
+    </nav>
 </header>
 <body>
     
+
     <div class="banner"></div>
 
-    <section class=" donacion  p-5">
-        <h1 class="text-center white a p1">¿Cómo ayudar?</h1>
-        <p class="text-center text-ayudar  p1">Cada aporte de tu tiempo, dinero o conocimiento, puede impactar
-            positivamente la vida de más niños y niñas en riesgo.</p>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-4">
-                    <div class="card h mt-2">
-                        <div class="card-body">
-                            <h1 class="text-center mt-3 d p1" style="text-transform: uppercase">Ideas</h1>
-                            <hr>
-                            <p class="text-center white p1">Puden brindarnos ideas de como mejorar la fundacion</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4">
-                    <div class="card h mt-2">
-                        <div class="card-body">
-                            <h1 class="text-center mt-3 d p1" style="text-transform: uppercase">Donaciones</h1>
-                            <hr>
-                            <p class="text-center white p1">
-                                Si tiene ropa, juguetes o medicamentes en buen estado que o usus lo puede donar.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-4">
-                    <div class="card h mt-2">
-                        <div class="card-body">
-                            <h1 class="text-center  d p1" style="text-transform: uppercase">Voluntariado</h1>
-                            <hr>
-                            <p class="text-center white p1">
-                                Tu participación voluntaria es una fuerza de trabajo que se suma a la labor de nuestros profesionales
-                            </p>
-                        </div>
-                    </div>
+
+    <section class="ayuda-section">
+        <h1 class="ayuda-section__h1">¿Cómo ayudar?</h1>
+        <p class="ayuda-section__p">
+            Cada aporte de tu tiempo, dinero o conocimiento, puede impactar
+            positivamente la vida de más niños y niñas en riesgo.
+        </p>
+        <div class="ayuda-section__row">
+                
+            <div class="card-div">
+                <div class="card-body">
+                    <h1>Ideas</h1>
+                    <hr>
+                    <p>Puden brindarnos ideas de como mejorar la fundacion</p>
                 </div>
             </div>
+        
+
+            <div class="card-div">
+                <div class="card-body">
+                    <h1>Donaciones</h1>
+                    <hr>
+                    <p>
+                        Si tiene ropa, juguetes o medicamentes en buen estado que o usus lo puede donar.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card-div">
+                <div class="card-body">
+                    <h1>Voluntariado</h1>
+                    <hr>
+                    <p>
+                        Tu participación voluntaria es una fuerza de trabajo que se suma a la labor de nuestros profesionales
+                    </p>
+                </div>
+            </div>
+
         </div>
         
     </section>
@@ -112,7 +119,7 @@
         </div>
     </section> -->
     
-    <div class="proyectos  pb-5 pt-1">
+    <!-- <div class="proyectos  pb-5 pt-1">
         <section class="container">
             <h1 class="text-center proyecto mt-3 a ">Nuestro proyectos</h1>
             <div class="row">
@@ -165,5 +172,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-</body>
+</body> -->
 </html>

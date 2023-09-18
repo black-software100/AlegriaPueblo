@@ -2,6 +2,66 @@
  *{
     font-family: 'Roboto', sans-serif;
  }
+
+ header{
+    margin-top: 3em;
+}
+
+ .navbar-nav{
+    height: 80px;
+    width: 100%;
+    background-color: #0298d5;
+    position: fixed;
+    margin-top: -3em;
+    z-index: 2;
+}
+
+.navbar-nav__a{
+    width: 50%;
+    margin-top: 500px;
+}
+.navbar-nav__a-img{
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.navbar-nav .navbar-nav__ul{
+    list-style: none;
+    float: right;
+}
+
+.navbar-nav .navbar-nav__ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:  0 5px;
+}
+
+.navbar-nav .navbar-nav__ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.navbar-nav .navbar-nav__ul li a:hover{
+    background-color: #6d3c02;
+    color: #ffffff;
+    transition: .5;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display:none ;
+}
+
 body{
    background:  rgb(255, 255, 255);
 }
@@ -19,6 +79,7 @@ hr{
  .white{
     color: white;
  }
+
 .banner{
     background-image: url("../assets/img/Captura.PNG");
     background-position: top center;
@@ -27,6 +88,43 @@ hr{
     position: relative;
     z-index: 1;
 }
+
+.ayuda-section{
+    margin: 2% 10%;
+}
+.ayuda-section__h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #6d3c02;
+}
+.ayuda-section__p{
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-div{
+    margin-top: 50px;
+    background: #0298d5;
+    border-radius: 5px;
+    width: 30%;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.card-div h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #6d3c02;
+}
+.card-div p{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+
 .a{
    color: rgb(0, 54, 178)
 }
@@ -47,10 +145,8 @@ hr{
     margin: 0;
 }
 
-.text-ayudar{
-    margin-left: 35%;
-    margin-right: 35%;
-    font-size: 25px;
+.ayuda-section__row{
+    display: flex;
 }
 
 .carta{
